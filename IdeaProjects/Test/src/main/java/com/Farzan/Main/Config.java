@@ -64,6 +64,11 @@ public class Config
     {
         return new Member();
     }
+/*
+
+    @Bean
+    public MemberDaoImpl memberDao () {return new MemberDaoImpl() ; }
+*/
 
 
 
