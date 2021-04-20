@@ -19,6 +19,8 @@ import java.util.Properties;
 @EnableTransactionManagement
 public class Config
 {
+    //Main config of the Project
+
     @Bean
     public DataSource dataSource()
     {
@@ -64,11 +66,6 @@ public class Config
     {
         return new Member();
     }
-/*
-
-    @Bean
-    public MemberDaoImpl memberDao () {return new MemberDaoImpl() ; }
-*/
 
 
 
